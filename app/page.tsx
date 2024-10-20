@@ -3,7 +3,6 @@ import Image from "next/image"
 import BarbershopItem from "./_components/ui/barbershop-item"
 import BookingItem from "./_components/ui/booking-item"
 import { Button } from "./_components/ui/button"
-import { Card, CardContent } from "./_components/ui/card"
 import Header from "./_components/ui/header"
 import { Input } from "./_components/ui/input"
 import { quickSearchOptions } from "./_lib/_contants/search"
@@ -83,16 +82,6 @@ export default async function Home() {
           ))}
         </div>
       </div>
-
-      <footer>
-        <Card>
-          <CardContent className="px-5 py-6">
-            <p className="text-sm text-gray-500">
-              Copyright <span className="font-bold">Salão.com</span>
-            </p>
-          </CardContent>
-        </Card>
-      </footer>
     </div>
   )
 }
